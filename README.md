@@ -1,4 +1,4 @@
-SparkFun Photodetector Breakout - MAX30101 (Qwiic)
+SparkFun ProDriver - Stepper Motor Driver (TC78H670FTG)
 ========================================
 
 [![SparkFun Photodetector Breakout - MAX30101 (Qwiic))](https://cdn.sparkfun.com//assets/parts/1/5/3/3/8/16474-SparkFun_Particle_Sensor_Breakout_-_MAX30101__Qwiic_-01.jpg)](https://www.sparkfun.com/products/16474)
