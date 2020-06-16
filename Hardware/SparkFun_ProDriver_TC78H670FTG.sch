@@ -23978,21 +23978,21 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <plain>
 <text x="238.76" y="7.62" size="1.778" layer="94" font="vector">v01</text>
 <text x="170.688" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
-<wire x1="60.96" y1="185.42" x2="60.96" y2="121.92" width="0.2032" layer="97" style="longdash"/>
+<wire x1="60.96" y1="185.42" x2="60.96" y2="124.46" width="0.2032" layer="97" style="longdash"/>
 <text x="2.54" y="180.34" size="2.54" layer="94" font="vector" ratio="14">Power Input</text>
 <text x="63.5" y="180.34" size="2.54" layer="94" font="vector" ratio="14">Regulator</text>
 <text x="147.32" y="180.34" size="2.54" layer="94" font="vector" ratio="14">Logic Pullups</text>
-<text x="2.54" y="116.84" size="2.54" layer="94" font="vector" ratio="14">Connectors</text>
-<text x="63.5" y="116.84" size="2.54" layer="94" font="vector" ratio="14">Motor Driver</text>
-<wire x1="60.96" y1="121.92" x2="0" y2="121.92" width="0.2032" layer="97" style="longdash"/>
-<wire x1="144.78" y1="185.42" x2="144.78" y2="121.92" width="0.2032" layer="97" style="longdash"/>
-<wire x1="144.78" y1="121.92" x2="60.96" y2="121.92" width="0.2032" layer="97" style="longdash"/>
-<wire x1="248.92" y1="121.92" x2="208.28" y2="121.92" width="0.2032" layer="97" style="longdash"/>
-<wire x1="208.28" y1="121.92" x2="144.78" y2="121.92" width="0.2032" layer="97" style="longdash"/>
-<wire x1="60.96" y1="121.92" x2="60.96" y2="35.56" width="0.2032" layer="97" style="longdash"/>
+<text x="2.54" y="119.38" size="2.54" layer="94" font="vector" ratio="14">Connectors</text>
+<text x="63.5" y="119.38" size="2.54" layer="94" font="vector" ratio="14">Motor Driver</text>
+<wire x1="60.96" y1="124.46" x2="0" y2="124.46" width="0.2032" layer="97" style="longdash"/>
+<wire x1="144.78" y1="185.42" x2="144.78" y2="124.46" width="0.2032" layer="97" style="longdash"/>
+<wire x1="144.78" y1="124.46" x2="60.96" y2="124.46" width="0.2032" layer="97" style="longdash"/>
+<wire x1="248.92" y1="124.46" x2="208.28" y2="124.46" width="0.2032" layer="97" style="longdash"/>
+<wire x1="208.28" y1="124.46" x2="144.78" y2="124.46" width="0.2032" layer="97" style="longdash"/>
+<wire x1="60.96" y1="124.46" x2="60.96" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <wire x1="60.96" y1="35.56" x2="147.32" y2="35.56" width="0.2032" layer="97" style="longdash"/>
-<text x="210.82" y="116.84" size="2.54" layer="94" font="vector" ratio="14">Current Adjust</text>
-<wire x1="208.28" y1="121.92" x2="208.28" y2="35.56" width="0.2032" layer="97" style="longdash"/>
+<text x="210.82" y="119.38" size="2.54" layer="94" font="vector" ratio="14">Current Adjust</text>
+<wire x1="208.28" y1="124.46" x2="208.28" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="STANDOFF4" gate="G$1" x="244.856" y="26.416" smashed="yes"/>
@@ -24012,29 +24012,29 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <instance part="LOGO4" gate="G$1" x="120.142" y="16.764" smashed="yes"/>
 <instance part="FID3" gate="G$1" x="229.616" y="26.416" smashed="yes"/>
 <instance part="FID4" gate="G$1" x="229.616" y="31.496" smashed="yes"/>
-<instance part="J5" gate="J1" x="12.7" y="83.82" smashed="yes">
-<attribute name="VALUE" x="7.62" y="76.454" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="7.62" y="91.948" size="1.778" layer="95" font="vector"/>
+<instance part="J5" gate="J1" x="12.7" y="86.36" smashed="yes">
+<attribute name="VALUE" x="7.62" y="78.994" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="7.62" y="94.488" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J2" gate="G$1" x="15.24" y="149.86" smashed="yes">
-<attribute name="VALUE" x="12.7" y="145.034" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="12.7" y="155.448" size="1.778" layer="95" font="vector"/>
+<instance part="J2" gate="G$1" x="15.24" y="152.4" smashed="yes">
+<attribute name="VALUE" x="12.7" y="147.574" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="12.7" y="157.988" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J1" gate="G$1" x="20.32" y="162.56" smashed="yes">
-<attribute name="VALUE" x="10.16" y="172.72" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="10.16" y="171.958" size="1.778" layer="95" font="vector"/>
+<instance part="J1" gate="G$1" x="20.32" y="165.1" smashed="yes">
+<attribute name="VALUE" x="10.16" y="175.26" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="10.16" y="174.498" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J7" gate="J1" x="12.7" y="27.94" smashed="yes">
-<attribute name="VALUE" x="7.62" y="20.574" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="7.62" y="36.068" size="1.778" layer="95" font="vector"/>
+<instance part="J7" gate="J1" x="12.7" y="30.48" smashed="yes">
+<attribute name="VALUE" x="7.62" y="23.114" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="7.62" y="38.608" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J8" gate="J1" x="12.7" y="7.62" smashed="yes">
-<attribute name="VALUE" x="7.62" y="0.254" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="7.62" y="15.748" size="1.778" layer="95" font="vector"/>
+<instance part="J8" gate="J1" x="12.7" y="10.16" smashed="yes">
+<attribute name="VALUE" x="7.62" y="2.794" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="7.62" y="18.288" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="15.24" y="134.62" smashed="yes">
-<attribute name="VALUE" x="12.7" y="129.794" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="12.7" y="140.208" size="1.778" layer="95" font="vector"/>
+<instance part="J3" gate="G$1" x="15.24" y="137.16" smashed="yes">
+<attribute name="VALUE" x="12.7" y="132.334" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="12.7" y="142.748" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="U1" gate="G$1" x="144.78" y="91.44" smashed="yes">
 <attribute name="NAME" x="144.78" y="105.156" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -24046,8 +24046,8 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <instance part="GND2" gate="1" x="116.84" y="71.12" smashed="yes">
 <attribute name="VALUE" x="116.84" y="70.866" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND3" gate="1" x="27.94" y="127" smashed="yes">
-<attribute name="VALUE" x="27.94" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND3" gate="1" x="27.94" y="129.54" smashed="yes">
+<attribute name="VALUE" x="27.94" y="129.286" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R1" gate="G$1" x="91.44" y="78.74" smashed="yes">
 <attribute name="NAME" x="91.44" y="80.264" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -24102,12 +24102,12 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <instance part="GND9" gate="1" x="68.58" y="86.36" smashed="yes">
 <attribute name="VALUE" x="68.58" y="86.106" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="J4" gate="J1" x="12.7" y="104.14" smashed="yes">
-<attribute name="VALUE" x="7.62" y="96.774" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="7.62" y="112.268" size="1.778" layer="95" font="vector"/>
+<instance part="J4" gate="J1" x="12.7" y="106.68" smashed="yes">
+<attribute name="VALUE" x="7.62" y="99.314" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="7.62" y="114.808" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND10" gate="1" x="30.48" y="104.14" smashed="yes">
-<attribute name="VALUE" x="30.48" y="103.886" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND10" gate="1" x="30.48" y="106.68" smashed="yes">
+<attribute name="VALUE" x="30.48" y="106.426" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="S1" gate="1" x="78.74" y="71.12" smashed="yes" rot="MR0">
 <attribute name="NAME" x="79.502" y="72.39" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
@@ -24116,33 +24116,33 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <instance part="GND11" gate="1" x="71.12" y="63.5" smashed="yes">
 <attribute name="VALUE" x="71.12" y="63.246" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="D1" gate="G$1" x="33.02" y="170.18" smashed="yes">
-<attribute name="NAME" x="30.48" y="172.212" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="30.48" y="168.148" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D1" gate="G$1" x="33.02" y="172.72" smashed="yes">
+<attribute name="NAME" x="30.48" y="174.752" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="30.48" y="170.688" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="38.1" y="172.72" smashed="yes">
-<attribute name="VALUE" x="38.1" y="175.514" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY3" gate="G$1" x="38.1" y="175.26" smashed="yes">
+<attribute name="VALUE" x="38.1" y="178.054" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="U2" gate="G$1" x="99.06" y="162.56" smashed="yes">
-<attribute name="NAME" x="101.6" y="154.94" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="101.6" y="152.4" size="1.778" layer="96"/>
+<instance part="U2" gate="G$1" x="99.06" y="165.1" smashed="yes">
+<attribute name="NAME" x="101.6" y="157.48" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="101.6" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="88.9" y="165.1" smashed="yes">
-<attribute name="VALUE" x="88.9" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="88.9" y="167.64" smashed="yes">
+<attribute name="VALUE" x="88.9" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="109.22" y="152.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="109.22" y="150.876" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="109.22" y="153.924" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R4" gate="G$1" x="109.22" y="154.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="109.22" y="153.416" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="109.22" y="156.464" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="99.06" y="144.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.536" y="144.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="100.584" y="144.78" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="99.06" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="97.536" y="147.32" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="100.584" y="147.32" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND12" gate="1" x="99.06" y="134.62" smashed="yes">
-<attribute name="VALUE" x="99.06" y="134.366" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND12" gate="1" x="99.06" y="137.16" smashed="yes">
+<attribute name="VALUE" x="99.06" y="136.906" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="116.84" y="165.1" smashed="yes">
-<attribute name="VALUE" x="116.84" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY4" gate="G$1" x="116.84" y="167.64" smashed="yes">
+<attribute name="VALUE" x="116.84" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="R6" gate="G$1" x="228.6" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="227.076" y="93.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -24154,45 +24154,45 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <instance part="SUPPLY5" gate="G$1" x="228.6" y="101.6" smashed="yes">
 <attribute name="VALUE" x="228.6" y="104.394" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="167.64" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="166.116" y="157.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="169.164" y="157.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R7" gate="G$1" x="167.64" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="166.116" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="169.164" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="175.26" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="173.736" y="157.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="176.784" y="157.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R8" gate="G$1" x="175.26" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="173.736" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="176.784" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R9" gate="G$1" x="182.88" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="181.356" y="157.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="184.404" y="157.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R9" gate="G$1" x="182.88" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="181.356" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="184.404" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="190.5" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="188.976" y="157.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="192.024" y="157.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R10" gate="G$1" x="190.5" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="188.976" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="192.024" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R11" gate="G$1" x="198.12" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="196.596" y="157.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="199.644" y="157.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R11" gate="G$1" x="198.12" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="196.596" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="199.644" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R12" gate="G$1" x="205.74" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="204.216" y="157.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="207.264" y="157.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R12" gate="G$1" x="205.74" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="204.216" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="207.264" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="167.64" y="167.64" smashed="yes">
-<attribute name="VALUE" x="167.64" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="167.64" y="170.18" smashed="yes">
+<attribute name="VALUE" x="167.64" y="172.974" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND14" gate="1" x="228.6" y="71.12" smashed="yes">
 <attribute name="VALUE" x="228.6" y="70.866" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="33.02" y="50.8" smashed="yes">
-<attribute name="VALUE" x="33.02" y="53.594" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="33.02" y="53.34" smashed="yes">
+<attribute name="VALUE" x="33.02" y="56.134" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND15" gate="1" x="30.48" y="63.5" smashed="yes">
-<attribute name="VALUE" x="30.48" y="63.246" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND15" gate="1" x="30.48" y="66.04" smashed="yes">
+<attribute name="VALUE" x="30.48" y="65.786" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="J6" gate="J1" x="7.62" y="63.5" smashed="yes">
-<attribute name="VALUE" x="7.62" y="38.354" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="7.62" y="71.628" size="1.778" layer="95" font="vector"/>
+<instance part="J6" gate="J1" x="7.62" y="66.04" smashed="yes">
+<attribute name="VALUE" x="7.62" y="40.894" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="7.62" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -24205,14 +24205,14 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="175.26" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
-<label x="30.48" y="33.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+<label x="30.48" y="35.56" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J7" gate="J1" pin="4"/>
-<wire x1="20.32" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="15.24" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="J8" gate="J1" pin="4"/>
-<wire x1="20.32" y1="33.02" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
-<junction x="20.32" y="33.02"/>
+<wire x1="20.32" y1="35.56" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
+<junction x="20.32" y="35.56"/>
 </segment>
 </net>
 <net name="OUT_A-" class="0">
@@ -24222,14 +24222,14 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="175.26" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
-<label x="30.48" y="30.48" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
+<label x="30.48" y="33.02" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J7" gate="J1" pin="3"/>
-<wire x1="22.86" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="J8" gate="J1" pin="3"/>
-<wire x1="22.86" y1="30.48" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
-<junction x="22.86" y="30.48"/>
+<wire x1="22.86" y1="33.02" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
+<junction x="22.86" y="33.02"/>
 </segment>
 </net>
 <net name="OUT_B+" class="0">
@@ -24239,14 +24239,14 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="175.26" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
-<label x="30.48" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<label x="30.48" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J7" gate="J1" pin="1"/>
-<wire x1="27.94" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="5.08" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="7.62" x2="27.94" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="J8" gate="J1" pin="1"/>
-<wire x1="27.94" y1="25.4" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
-<junction x="27.94" y="25.4"/>
+<wire x1="27.94" y1="27.94" x2="27.94" y2="7.62" width="0.1524" layer="91"/>
+<junction x="27.94" y="27.94"/>
 </segment>
 </net>
 <net name="OUT_B-" class="0">
@@ -24256,14 +24256,14 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="175.26" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<label x="30.48" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<label x="30.48" y="30.48" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J7" gate="J1" pin="2"/>
-<wire x1="25.4" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="J8" gate="J1" pin="2"/>
-<wire x1="25.4" y1="27.94" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
-<junction x="25.4" y="27.94"/>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
 </segment>
 </net>
 <net name="OSCM" class="0">
@@ -24288,19 +24288,19 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="116.84" y="96.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="215.9" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="215.9" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="147.32" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="149.86" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="149.86" x2="205.74" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="3"/>
-<label x="20.32" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="17.78" y1="106.68" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
+<label x="20.32" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="109.22" x2="20.32" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="20.32" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="17.78" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
+<label x="20.32" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="9"/>
 </segment>
 </net>
@@ -24311,19 +24311,19 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="116.84" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
-<label x="20.32" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
+<label x="20.32" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J5" gate="J1" pin="1"/>
 </segment>
 <segment>
-<label x="215.9" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="215.9" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
+<label x="215.9" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="215.9" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="134.62" x2="167.64" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="137.16" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="20.32" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="20.32" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
+<label x="20.32" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="20.32" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="3"/>
 </segment>
 </net>
@@ -24334,19 +24334,19 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="116.84" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
-<label x="20.32" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
+<label x="20.32" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J5" gate="J1" pin="2"/>
 </segment>
 <segment>
-<label x="215.9" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="215.9" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
+<label x="215.9" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="215.9" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="137.16" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="139.7" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="20.32" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="20.32" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
+<label x="20.32" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="20.32" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="4"/>
 </segment>
 </net>
@@ -24357,19 +24357,19 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="116.84" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
-<label x="20.32" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="88.9" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
+<label x="20.32" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J5" gate="J1" pin="3"/>
 </segment>
 <segment>
-<label x="215.9" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="215.9" y1="139.7" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
+<label x="215.9" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="215.9" y1="142.24" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="139.7" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="142.24" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="20.32" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="20.32" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
+<label x="20.32" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="20.32" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="5"/>
 </segment>
 </net>
@@ -24380,19 +24380,19 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="116.84" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="88.9" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
-<label x="20.32" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
+<label x="20.32" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J5" gate="J1" pin="4"/>
 </segment>
 <segment>
-<label x="215.9" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="215.9" y1="142.24" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
+<label x="215.9" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="215.9" y1="144.78" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="142.24" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="144.78" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="20.32" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="20.32" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
+<label x="20.32" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="20.32" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="6"/>
 </segment>
 </net>
@@ -24434,21 +24434,21 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="27.94" y1="129.54" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="132.08" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="134.62" x2="22.86" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="134.62" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
-<junction x="27.94" y="134.62"/>
+<wire x1="27.94" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="137.16" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
+<junction x="27.94" y="137.16"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="149.86" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="149.86" x2="27.94" y2="165.1" width="0.1524" layer="91"/>
-<junction x="27.94" y="149.86"/>
+<wire x1="27.94" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="152.4" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
+<junction x="27.94" y="152.4"/>
 <pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="27.94" y1="165.1" x2="22.86" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="165.1" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
-<junction x="27.94" y="165.1"/>
-<pinref part="J1" gate="G$1" pin="GNDBREAK"/>
 <wire x1="27.94" y1="167.64" x2="22.86" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="167.64" x2="27.94" y2="170.18" width="0.1524" layer="91"/>
+<junction x="27.94" y="167.64"/>
+<pinref part="J1" gate="G$1" pin="GNDBREAK"/>
+<wire x1="27.94" y1="170.18" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -24474,7 +24474,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="99.06" y1="137.16" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="139.7" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -24483,21 +24483,21 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="30.48" y1="106.68" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="109.22" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="J4" gate="J1" pin="4"/>
-<wire x1="17.78" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="30.48" y1="66.04" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="68.58" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="71.12" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="10"/>
 </segment>
 </net>
 <net name="EN" class="0">
 <segment>
-<label x="20.32" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="17.78" y1="101.6" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
+<label x="20.32" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="J4" gate="J1" pin="1"/>
 </segment>
 <segment>
@@ -24511,14 +24511,14 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="83.82" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="215.9" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="198.12" y1="144.78" x2="215.9" y2="144.78" width="0.1524" layer="91"/>
+<label x="215.9" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="198.12" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="144.78" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="147.32" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="20.32" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="17.78" y1="60.96" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
+<label x="20.32" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="7"/>
 </segment>
 </net>
@@ -24538,13 +24538,13 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="106.68" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="20.32" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="17.78" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<label x="20.32" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="106.68" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J4" gate="J1" pin="2"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
-<label x="20.32" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
+<label x="20.32" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J6" gate="J1" pin="8"/>
 </segment>
 </net>
@@ -24571,15 +24571,15 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
-<wire x1="38.1" y1="170.18" x2="38.1" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="172.72" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="35.56" y1="170.18" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="172.72" x2="38.1" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="88.9" y1="162.56" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="165.1" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="IN"/>
-<wire x1="91.44" y1="162.56" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="165.1" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VREF" class="0">
@@ -24598,48 +24598,48 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="VR1" gate="R?" pin="WIPER"/>
 </segment>
 <segment>
-<label x="20.32" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="17.78" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
+<label x="20.32" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="17.78" y1="48.26" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="137.16" x2="25.4" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="137.16" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="139.7" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="139.7" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="152.4" x2="25.4" y2="170.18" width="0.1524" layer="91"/>
-<junction x="25.4" y="152.4"/>
+<wire x1="25.4" y1="154.94" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="154.94" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="154.94"/>
 <pinref part="J1" gate="G$1" pin="PWR"/>
-<wire x1="25.4" y1="170.18" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="172.72" x2="22.86" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="25.4" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
-<junction x="25.4" y="170.18"/>
+<wire x1="25.4" y1="172.72" x2="30.48" y2="172.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="172.72"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="154.94" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="ADJ"/>
-<wire x1="99.06" y1="152.4" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="154.94" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="149.86" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
-<junction x="99.06" y="152.4"/>
+<wire x1="99.06" y1="152.4" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
+<junction x="99.06" y="154.94"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
-<wire x1="116.84" y1="162.56" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="162.56" x2="116.84" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="165.1" x2="106.68" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="165.1" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="152.4" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="152.4" x2="116.84" y2="162.56" width="0.1524" layer="91"/>
-<junction x="116.84" y="162.56"/>
+<wire x1="114.3" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="154.94" x2="116.84" y2="165.1" width="0.1524" layer="91"/>
+<junction x="116.84" y="165.1"/>
 </segment>
 <segment>
 <wire x1="228.6" y1="99.06" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
@@ -24647,35 +24647,35 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="167.64" y1="162.56" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="165.1" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="165.1" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
-<junction x="167.64" y="165.1"/>
+<wire x1="167.64" y1="167.64" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
+<junction x="167.64" y="167.64"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="165.1" x2="198.12" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="165.1" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="165.1" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="165.1" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="165.1" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="162.56" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
-<junction x="175.26" y="165.1"/>
+<wire x1="205.74" y1="167.64" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="167.64" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="167.64" x2="182.88" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="167.64" x2="175.26" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="167.64" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="165.1" x2="175.26" y2="167.64" width="0.1524" layer="91"/>
+<junction x="175.26" y="167.64"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="162.56" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
-<junction x="182.88" y="165.1"/>
+<wire x1="182.88" y1="165.1" x2="182.88" y2="167.64" width="0.1524" layer="91"/>
+<junction x="182.88" y="167.64"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="162.56" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
-<junction x="190.5" y="165.1"/>
+<wire x1="190.5" y1="165.1" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
+<junction x="190.5" y="167.64"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="162.56" x2="198.12" y2="165.1" width="0.1524" layer="91"/>
-<junction x="198.12" y="165.1"/>
+<wire x1="198.12" y1="165.1" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
+<junction x="198.12" y="167.64"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="162.56" x2="205.74" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="165.1" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="48.26" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="50.8" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
-<wire x1="33.02" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J1" pin="2"/>
 </segment>
 </net>
