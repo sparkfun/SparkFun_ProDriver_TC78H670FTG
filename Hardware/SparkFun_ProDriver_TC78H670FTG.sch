@@ -24405,7 +24405,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-B340A" value="3A/40V/500mV"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device="" value="VM"/>
-<part name="U2" library="SparkFun-IC-Power" deviceset="V_REG_LM1117" device="SOT223"/>
+<part name="U2" library="SparkFun-IC-Power" deviceset="V_REG_LM1117" device="SOT223" value="LM1117"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC" device="" value="VM"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="240OHM" device="-0603-1/10W-1%" value="240"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="390OHM" device="-0603-1/10W-1%" value="390"/>
@@ -24597,8 +24597,8 @@ VREF=0-1.8V</text>
 <attribute name="VALUE" x="73.66" y="178.054" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="U2" gate="G$1" x="127" y="165.1" smashed="yes">
-<attribute name="NAME" x="129.54" y="157.48" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="129.54" y="154.94" size="1.778" layer="96"/>
+<attribute name="NAME" x="129.032" y="157.48" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="122.682" y="168.91" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="116.84" y="167.64" smashed="yes">
 <attribute name="VALUE" x="116.84" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -24665,7 +24665,7 @@ VREF=0-1.8V</text>
 <attribute name="VALUE" x="30.48" y="65.786" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="J6" gate="J1" x="7.62" y="66.04" smashed="yes">
-<attribute name="VALUE" x="7.62" y="40.894" size="1.778" layer="96" font="vector"/>
+<attribute name="VALUE" x="7.874" y="43.434" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="7.62" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="F1" gate="F1" x="48.26" y="172.72" smashed="yes">
