@@ -14731,8 +14731,8 @@ design rules under a new name.</description>
 <element name="U$68" library="output" package="#VM#0" value="" x="46.78171875" y="11.34618125" smashed="yes" rot="MR0"/>
 <element name="U$69" library="output" package="#GND#0" value="" x="46.370240625" y="8.82141875" smashed="yes" rot="MR0"/>
 <element name="U$70" library="output" package="#GND#5" value="" x="14.0081" y="52.664359375" smashed="yes" rot="MR270"/>
-<element name="U$72" library="output" package="#VM#0" value="" x="36.878265625" y="2.93624375" smashed="yes" rot="MR90"/>
-<element name="U$73" library="output" package="#GND#0" value="" x="41.856659375" y="2.94131875" smashed="yes" rot="MR90"/>
+<element name="U$72" library="output" package="#VM#0" value="" x="36.88079375" y="2.98195625" smashed="yes" rot="MR270"/>
+<element name="U$73" library="output" package="#GND#0" value="" x="41.861740625" y="2.694940625" smashed="yes" rot="MR270"/>
 <element name="U$74" library="output" package="#STBY#1" value="" x="16.537940625" y="55.5371" smashed="yes" rot="MR270"/>
 <element name="U$71" library="output" package="#ERR#3" value="" x="19.077940625" y="55.5371" smashed="yes" rot="MR270"/>
 <element name="U$75" library="output" package="#EN#4" value="" x="21.617940625" y="55.5371" smashed="yes" rot="MR270"/>
