@@ -25274,7 +25274,7 @@ to disable LED</text>
 <junction x="193.04" y="76.2"/>
 </segment>
 </net>
-<net name="STBY" class="0">
+<net name="!STBY" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="STBY"/>
 <wire x1="119.38" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
@@ -25520,7 +25520,7 @@ to disable LED</text>
 <pinref part="J6" gate="J1" pin="7"/>
 </segment>
 </net>
-<net name="ERR" class="0">
+<net name="!ERR" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="EN/ERR"/>
 <pinref part="R1" gate="G$1" pin="2"/>
