@@ -24863,7 +24863,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R2" library="SparkFun-Resistors" deviceset="47KOHM" device="-0603-1/10W-1%" value="47k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="DNP"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="OSCMBP" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device="" value="VM"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="47UF-POLAR" device="-PANASONIC_D-35V-20%" value="47uF"/>
@@ -24899,8 +24899,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE" value="PTH"/>
 <part name="F1" library="TC78H670FTG" deviceset="PPTC" device="_16V_1.1A_(2.2ATRIP)" value="16V/1.1A(2.2A TRIP)"/>
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0OHM" device="-0603-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
-<part name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
-<part name="JP3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
+<part name="PTCBP" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
+<part name="D1BP" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -24931,11 +24931,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="208.28" y1="124.46" x2="208.28" y2="53.34" width="0.2032" layer="97" style="longdash"/>
 <wire x1="208.28" y1="53.34" x2="208.28" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <wire x1="104.14" y1="185.42" x2="104.14" y2="124.46" width="0.2032" layer="97" style="longdash"/>
-<text x="139.7" y="50.8" size="1.778" layer="97" font="vector">Open JP1 to remove R2,
+<text x="139.7" y="50.8" size="1.778" layer="97" font="vector">Open to remove R2,
 and then use custom R3.</text>
 <wire x1="177.8" y1="66.04" x2="152.146" y2="56.134" width="0.1524" layer="97" style="shortdash"/>
-<text x="47.752" y="142.24" size="1.778" layer="97" font="vector">Close JP2 to bypass F1</text>
-<text x="24.892" y="135.128" size="1.778" layer="97" font="vector">Close JP3 to bypass D1</text>
+<text x="47.752" y="142.24" size="1.778" layer="97" font="vector">Close to bypass F1</text>
+<text x="24.892" y="135.128" size="1.778" layer="97" font="vector">Close to bypass D1</text>
 <wire x1="30.734" y1="152.4" x2="36.83" y2="138.176" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="50.038" y1="152.908" x2="60.452" y2="144.78" width="0.1524" layer="97" style="shortdash"/>
 <text x="71.12" y="154.94" size="1.778" layer="97" font="vector">R13: Optional
@@ -24949,7 +24949,7 @@ VREF=0-1.8V</text>
 <text x="163.068" y="167.132" size="1.778" layer="97" font="vector" rot="R180">Clear Jumper 
 to disable LED</text>
 <wire x1="172.72" y1="185.42" x2="172.72" y2="124.46" width="0.2032" layer="97" style="longdash"/>
-<text x="2.54" y="175.26" size="1.778" layer="97" font="vector">VM power input: 2.5-16V</text>
+<text x="2.54" y="175.26" size="1.778" layer="97" font="vector">VM power input: 3.3-16V</text>
 <wire x1="248.92" y1="53.34" x2="208.28" y2="53.34" width="0.2032" layer="97" style="longdash"/>
 <text x="211.074" y="42.164" size="1.778" layer="94" font="vector" ratio="12">THIS IS A 4-LAYER BOARD</text>
 <text x="129.54" y="111.76" size="1.778" layer="97">Logic Level 5.5V tolerant
@@ -25033,8 +25033,8 @@ Logic HIGH theshold: 1.5V</text>
 <instance part="GND5" gate="1" x="182.88" y="45.72" smashed="yes">
 <attribute name="VALUE" x="182.88" y="45.466" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="182.88" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="180.34" y="66.04" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="OSCMBP" gate="G$1" x="182.88" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="180.594" y="64.008" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="185.42" y="66.04" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND6" gate="1" x="193.04" y="45.72" smashed="yes">
@@ -25162,11 +25162,11 @@ Logic HIGH theshold: 1.5V</text>
 <attribute name="NAME" x="66.04" y="169.164" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="66.04" y="166.116" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="JP2" gate="G$1" x="48.26" y="154.94" smashed="yes">
+<instance part="PTCBP" gate="G$1" x="48.26" y="154.94" smashed="yes">
 <attribute name="NAME" x="45.72" y="157.48" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="45.72" y="152.4" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="JP3" gate="G$1" x="30.48" y="154.94" smashed="yes">
+<instance part="D1BP" gate="G$1" x="30.48" y="154.94" smashed="yes">
 <attribute name="NAME" x="27.94" y="157.48" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="27.94" y="152.4" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
@@ -25271,7 +25271,7 @@ Logic HIGH theshold: 1.5V</text>
 <pinref part="U1" gate="G$1" pin="OSCM"/>
 <label x="195.58" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="170.18" y1="76.2" x2="182.88" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="OSCMBP" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="76.2" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="73.66" x2="182.88" y2="76.2" width="0.1524" layer="91"/>
@@ -25524,16 +25524,16 @@ Logic HIGH theshold: 1.5V</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="EN/ERR"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="76.2" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
 <junction x="99.06" y="78.74"/>
-<wire x1="109.22" y1="78.74" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
-<junction x="109.22" y="78.74"/>
-<wire x1="109.22" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
-<label x="106.68" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="116.84" y1="78.74" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
+<junction x="116.84" y="78.74"/>
+<wire x1="116.84" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
+<label x="114.3" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <label x="20.32" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -25549,7 +25549,7 @@ Logic HIGH theshold: 1.5V</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="OSCMBP" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="60.96" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25615,7 +25615,7 @@ Logic HIGH theshold: 1.5V</text>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="17.78" y1="167.64" x2="22.86" y2="167.64" width="0.1524" layer="91"/>
 <junction x="17.78" y="167.64"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="D1BP" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="167.64" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="154.94" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="154.94" x2="22.86" y2="167.64" width="0.1524" layer="91"/>
@@ -25691,7 +25691,7 @@ Logic HIGH theshold: 1.5V</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="F1" gate="F1" pin="1"/>
 <wire x1="33.02" y1="167.64" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="D1BP" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="167.64" x2="40.64" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="167.64" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="154.94" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
@@ -25700,7 +25700,7 @@ Logic HIGH theshold: 1.5V</text>
 <wire x1="40.64" y1="167.64" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
 <junction x="40.64" y="167.64"/>
 <wire x1="40.64" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="PTCBP" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -25708,7 +25708,7 @@ Logic HIGH theshold: 1.5V</text>
 <pinref part="F1" gate="F1" pin="2"/>
 <wire x1="55.88" y1="167.64" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="167.64" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="PTCBP" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="154.94" x2="53.34" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="167.64" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
