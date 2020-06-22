@@ -24,7 +24,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="30" fill="5" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -53,7 +53,7 @@
 <layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
 <layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
-<layer number="2" name="GND2" color="14" fill="1" visible="no" active="yes"/>
+<layer number="2" name="GND2" color="13" fill="6" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -66,7 +66,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="GND15" color="13" fill="1" visible="no" active="yes"/>
+<layer number="15" name="GND15" color="14" fill="3" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1604,11 +1604,6 @@ Over paste toe on each SMD pad to ease use of AOI.
 <vertex x="0.59" y="0.82"/>
 <vertex x="-0.82" y="0.82"/>
 </polygon>
-<rectangle x1="-0.6" y1="-0.61" x2="-0.3" y2="-0.3" layer="32"/>
-<rectangle x1="0.3" y1="0.29" x2="0.6" y2="0.6" layer="32"/>
-<rectangle x1="-0.16" y1="-0.17" x2="0.14" y2="0.14" layer="32"/>
-<rectangle x1="-0.6" y1="0.29" x2="-0.3" y2="0.6" layer="32"/>
-<rectangle x1="0.3" y1="-0.61" x2="0.6" y2="-0.3" layer="32"/>
 <polygon width="0.05" layer="29">
 <vertex x="-0.88" y="-0.87"/>
 <vertex x="0.87" y="-0.87"/>
@@ -15746,6 +15741,12 @@ design rules under a new name.</description>
 <wire x1="17.858740625" y1="47.84851875" x2="20.27428125" y2="50.264059375" width="0.2032" layer="1"/>
 <wire x1="20.27428125" y1="50.264059375" x2="39.0017" y2="50.264059375" width="0.2032" layer="1"/>
 <wire x1="39.0017" y1="50.264059375" x2="43.421303125" y2="45.84445625" width="0.2032" layer="1"/>
+</signal>
+<signal name="N$12">
+<wire x1="40.674290625" y1="51.76011875" x2="41.926509375" y2="51.76011875" width="0.254" layer="15"/>
+</signal>
+<signal name="N$9">
+<wire x1="43.119040625" y1="54.2544" x2="44.615103125" y2="54.2544" width="0.254" layer="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

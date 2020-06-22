@@ -18699,11 +18699,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <vertex x="0.59" y="0.82"/>
 <vertex x="-0.82" y="0.82"/>
 </polygon>
-<rectangle x1="-0.6" y1="-0.61" x2="-0.3" y2="-0.3" layer="32"/>
-<rectangle x1="0.3" y1="0.29" x2="0.6" y2="0.6" layer="32"/>
-<rectangle x1="-0.16" y1="-0.17" x2="0.14" y2="0.14" layer="32"/>
-<rectangle x1="-0.6" y1="0.29" x2="-0.3" y2="0.6" layer="32"/>
-<rectangle x1="0.3" y1="-0.61" x2="0.6" y2="-0.3" layer="32"/>
 <polygon width="0.05" layer="29">
 <vertex x="-0.88" y="-0.87"/>
 <vertex x="0.87" y="-0.87"/>
