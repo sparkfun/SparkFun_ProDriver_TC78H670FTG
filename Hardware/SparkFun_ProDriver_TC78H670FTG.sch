@@ -29189,7 +29189,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="1.778" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="1.778" layer="94" font="vector">v10</text>
 <text x="170.688" y="11.43" size="2.54" layer="94" font="vector">Pete Lewis</text>
 <text x="2.54" y="180.34" size="2.54" layer="94" font="vector" ratio="14">Power Input</text>
 <text x="109.22" y="180.34" size="2.54" layer="94" font="vector" ratio="14">Regulator</text>
