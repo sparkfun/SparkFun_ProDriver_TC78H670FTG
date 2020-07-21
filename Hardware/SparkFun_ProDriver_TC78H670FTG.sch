@@ -29225,7 +29225,7 @@ VREF=0-1.8V</text>
 <text x="163.068" y="167.132" size="1.778" layer="97" font="vector" rot="R180">Clear Jumper 
 to disable LED</text>
 <wire x1="172.72" y1="185.42" x2="172.72" y2="124.46" width="0.2032" layer="97" style="longdash"/>
-<text x="2.54" y="175.26" size="1.778" layer="97" font="vector">VM power input: 3.3-16V</text>
+<text x="2.54" y="175.26" size="1.778" layer="97" font="vector">VM power input: 3.6-16V</text>
 <wire x1="248.92" y1="53.34" x2="208.28" y2="53.34" width="0.2032" layer="97" style="longdash"/>
 <text x="211.074" y="42.164" size="1.778" layer="94" font="vector" ratio="12">THIS IS A 4-LAYER BOARD</text>
 <text x="124.46" y="110.744" size="1.778" layer="97" font="vector">Logic Level 5.5V tolerant
