@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="30" fill="5" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="30" fill="5" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -39,11 +39,11 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="11" fill="7" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -298,19 +298,23 @@ NUMBERS</text>
 <text x="55.88" y="31.75" size="1.778" layer="48" font="vector" ratio="15">Selective Solder 
 Nozzle Width: 0.354"</text>
 <dimension x1="0" y1="0" x2="0" y2="57.15" x3="-29.21" y3="28.575" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
-<dimension x1="0" y1="57.15" x2="50.8" y2="57.15" x3="25.4" y3="95.25" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="57.15" x2="50.8" y2="57.15" x3="25.4" y3="78.74" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
 <dimension x1="0" y1="0" x2="0" y2="2.54" x3="-22.86" y3="1.27" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
 <dimension x1="0" y1="0" x2="0" y2="54.61" x3="-25.4" y3="27.305" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
-<dimension x1="0" y1="57.15" x2="2.54" y2="57.15" x3="1.27" y3="76.2" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
-<dimension x1="0" y1="57.15" x2="48.26" y2="57.15" x3="24.13" y3="90.17" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
-<dimension x1="0" y1="57.15" x2="13.97" y2="57.15" x3="6.985" y3="81.28" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
-<dimension x1="0" y1="57.15" x2="36.83" y2="57.15" x3="18.415" y3="85.09" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="57.15" x2="2.54" y2="57.15" x3="1.27" y3="63.5" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="57.15" x2="48.26" y2="57.15" x3="24.13" y3="74.93" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="57.15" x2="13.97" y2="57.15" x3="6.985" y3="67.31" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="57.15" x2="36.83" y2="57.15" x3="18.415" y3="71.12" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
 <dimension x1="6.858" y1="39.624" x2="7.62" y2="0" x3="-19.05" y3="19.812" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch" visible="yes"/>
 <dimension x1="6.858" y1="18.796" x2="7.62" y2="0" x3="-13.97" y3="9.398" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch" visible="yes"/>
 <dimension x1="43.942" y1="33.02" x2="44.45" y2="0" x3="60.96" y3="16.51" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch" visible="yes"/>
 <dimension x1="39.37" y1="6.858" x2="0" y2="7.62" x3="19.685" y3="-5.08" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
 <dimension x1="26.67" y1="5.842" x2="0" y2="6.35" x3="13.335" y3="-8.89" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
 <dimension x1="49.53" y1="8.89" x2="49.53" y2="0" x3="55.88" y3="4.445" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<dimension x1="43.421303125" y1="45.84445625" x2="50.8" y2="45.847" x3="47.102815625" y3="68.5761" textsize="1.778" layer="47" unit="inch" visible="yes"/>
+<dimension x1="43.421303125" y1="45.84445625" x2="43.434" y2="57.15" x3="67.297915625" y3="51.470421875" textsize="1.778" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0.635" y1="49.784" x2="0.635" y2="29.464" x3="-5.08" y3="39.624" textsize="1.778" layer="47" unit="inch" visible="yes"/>
+<dimension x1="34.29" y1="1.27" x2="44.45" y2="1.27" x3="39.37" y3="-8.89" textsize="1.778" layer="47" unit="inch" visible="yes"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
