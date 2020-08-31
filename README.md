@@ -1,13 +1,13 @@
 SparkFun ProDriver - Stepper Motor Driver (TC78H670FTG)
 ========================================
 
-[![SparkFun Photodetector Breakout - MAX30101 (Qwiic))](https://cdn.sparkfun.com//assets/parts/1/5/3/3/8/16474-SparkFun_Particle_Sensor_Breakout_-_MAX30101__Qwiic_-01.jpg)](https://www.sparkfun.com/products/16474)
+![SparkFun ProDriver - Stepper Motor Driver (TC78H670FTG)](https://cdn.sparkfun.com//assets/parts/1/5/7/5/7/16836-SparkFun_ProDriver_-_Stepper_Motor_Driver__TC78H670FTG_-01a.jpg)
 
-[*SparkFun Photodetector Breakout - MAX30101 (Qwiic) (SEN-16474)*](https://www.sparkfun.com/products/16474)
+[*SparkFun ProDriver - Stepper Motor Driver (TC78H670FTG) (ROB-16836)*](https://www.sparkfun.com/products/16836)
 
-This updated version of the [SparkFun Particle Sensor Breakout](https://www.sparkfun.com/products/14045) includes the MAX30101, a highly sensitive optical sensor and successor to the MAX30105 and MAX30102. The MAX30101 includes three LEDs and an optical detector in a single package. The operating principle behind the sensor, utilizes the photon detector to measure the amount of light that is reflected back from the light being emitted by the LEDs. This is useful for various applications like particle (*i.e. smoke*) detection, proximity measurements, and even [photoplethysmography](https://en.wikipedia.org/wiki/Photoplethysmogram). For more accurate and reliable biometric readings, we recommend the [SparkFun Pulse Oximeter and Heart Rate Sensor](https://www.sparkfun.com/products/15219), which utilizes proprietary algorithms programmed on the MAX32664 Biometric Sensor Hub.
+The SparkFun ProDriver makes it easy to start developing with the TC78H670FTG bipolar stepper motor driver from Toshiba! Latch terminals provide instant solder-less connections to every feature offered. Use our extensive Arduino Library with 10 examples, and you can quickly explore the many features of this precise and small package size motor driver IC.
 
-<div class="alert alert-danger"><a href="https://www.sparkfun.com/terms"><b>&#9760; NOTE:</b> Our products are <b><u>NOT</u></b> intended to diagnose or treat any conditions and in life saving applications.</a></div>
+In addition to high resolution control (down to 1/128th of a step), the ProDriver can be controlled via traditional clock-in stepping or serial commands. Both methods are  demonstrated in the Arduino Library. The serial command method is especially unique in that it allows the user to precisely control the phase, torque, current limit and mixed decay ratio of each coil immediately during stepping. Most stepper motor driver ICs require using an external trimpot to set the current limit, but with the ProDriver, you can precisely adjust this via serial commands!
 
 
 Repository Contents
@@ -20,8 +20,8 @@ Repository Contents
 Documentation
 --------------
 
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-photodetector-max30101-hookup-guide)** - Basic hookup guide for the SparkFun Photodetector Breakout - MAX30101 (Qwiic).
-* **[Arduino Library](https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library)** - Basic Arduino Library for the SparkFun Photodetector Breakout - MAX30101 (Qwiic).
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/toshiba-stepper-motor-driver-prodriver)** - Basic hookup guide for the SparkFun ProDriver - Stepper Motor Driver (TC78H670FTG).
+* **[Arduino Library](https://github.com/sparkfun/SparkFun_ProDriver_TC78H670FTG_Arduino_Library)** - Basic Arduino Library for the SparkFun ProDriver - Stepper Motor Driver (TC78H670FTG).
 
 License Information
 -------------------
