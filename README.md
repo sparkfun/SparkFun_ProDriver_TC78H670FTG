@@ -20,7 +20,7 @@ Repository Contents
 Documentation
 --------------
 
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/toshiba-stepper-motor-driver-prodriver)** - Basic hookup guide for the SparkFun ProDriver - Stepper Motor Driver (TC78H670FTG).
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-prodriver-hookup-guide)** - Basic hookup guide for the SparkFun ProDriver - Stepper Motor Driver (TC78H670FTG).
 * **[Arduino Library](https://github.com/sparkfun/SparkFun_ProDriver_TC78H670FTG_Arduino_Library)** - Basic Arduino Library for the SparkFun ProDriver - Stepper Motor Driver (TC78H670FTG).
 
 License Information
