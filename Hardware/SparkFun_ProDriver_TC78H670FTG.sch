@@ -18651,83 +18651,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </library>
 <library name="TC78H670FTG">
 <packages>
-<package name="P-VQFN16-0303-0.50-001">
-<description>&lt;h3&gt;QFN-16 - 3.0mm x 3.0mm package for the MLX90393&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 16&lt;/li&gt;
-&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
-&lt;li&gt;Area: 3.0mm x 3.0mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=file:///C:/Users/andrew.england/Downloads/MLX90393-Datasheet-Melexis%20(1).pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
-<circle x="0.9154" y="0.9126" radius="0.05" width="0.127" layer="51"/>
-<circle x="1.4234" y="1.9921" radius="0.1905" width="0" layer="21"/>
-<wire x1="1.0649" y1="1.6891" x2="1.7554" y2="1.6891" width="0.127" layer="21"/>
-<wire x1="1.7554" y1="1.6891" x2="1.7554" y2="1.0621" width="0.127" layer="21"/>
-<wire x1="-1.7526" y1="1.6891" x2="-1.7526" y2="1.0621" width="0.127" layer="21"/>
-<wire x1="-1.0621" y1="1.6891" x2="-1.7526" y2="1.6891" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.05" layer="51"/>
-<wire x1="-1.7526" y1="-1.6919" x2="-1.7526" y2="-1.0649" width="0.127" layer="21"/>
-<wire x1="-1.0621" y1="-1.6919" x2="-1.7526" y2="-1.6919" width="0.127" layer="21"/>
-<wire x1="1.7554" y1="-1.6919" x2="1.7554" y2="-1.0649" width="0.127" layer="21"/>
-<wire x1="1.0649" y1="-1.6919" x2="1.7554" y2="-1.6919" width="0.127" layer="21"/>
-<smd name="1" x="0.75" y="1.498" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R90" cream="no"/>
-<smd name="2" x="0.25" y="1.498" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R90" cream="no"/>
-<smd name="3" x="-0.25" y="1.498" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R90" cream="no"/>
-<smd name="4" x="-0.75" y="1.498" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R90" cream="no"/>
-<smd name="5" x="-1.508" y="0.75" dx="0.85" dy="0.255" layer="1" roundness="75" cream="no"/>
-<smd name="6" x="-1.5" y="0.25" dx="0.85" dy="0.255" layer="1" roundness="75" cream="no"/>
-<smd name="7" x="-1.508" y="-0.25" dx="0.85" dy="0.255" layer="1" roundness="75" cream="no"/>
-<smd name="8" x="-1.508" y="-0.75" dx="0.85" dy="0.255" layer="1" roundness="75" cream="no"/>
-<smd name="9" x="-0.75" y="-1.506" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R270" cream="no"/>
-<smd name="10" x="-0.25" y="-1.506" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R270" cream="no"/>
-<smd name="11" x="0.25" y="-1.506" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R270" cream="no"/>
-<smd name="12" x="0.75" y="-1.506" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R270" cream="no"/>
-<smd name="13" x="1.496" y="-0.75" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R180" cream="no"/>
-<smd name="14" x="1.496" y="-0.25" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R180" cream="no"/>
-<smd name="15" x="1.496" y="0.25" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R180" cream="no"/>
-<smd name="16" x="1.496" y="0.75" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R180" cream="no"/>
-<text x="-1.3256" y="2.3676" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.7566" y="-2.8084" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<smd name="17" x="0" y="0" dx="1.3" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0.05" layer="1">
-<vertex x="-0.82" y="-0.82"/>
-<vertex x="0.82" y="-0.82"/>
-<vertex x="0.82" y="0.59"/>
-<vertex x="0.59" y="0.82"/>
-<vertex x="-0.82" y="0.82"/>
-</polygon>
-<polygon width="0.05" layer="29">
-<vertex x="-0.88" y="-0.87"/>
-<vertex x="0.87" y="-0.87"/>
-<vertex x="0.87" y="0.61"/>
-<vertex x="0.61" y="0.87"/>
-<vertex x="-0.88" y="0.87"/>
-</polygon>
-<circle x="0.508" y="0.508" radius="0.2032" width="0" layer="31"/>
-<circle x="0" y="0" radius="0.2032" width="0" layer="31"/>
-<circle x="0.508" y="-0.508" radius="0.2032" width="0" layer="31"/>
-<circle x="-0.508" y="-0.508" radius="0.2032" width="0" layer="31"/>
-<circle x="-0.508" y="0.508" radius="0.2032" width="0" layer="31"/>
-<wire x1="0.7493" y1="1.78231875" x2="0.7493" y2="1.19811875" width="0.2032" layer="31"/>
-<wire x1="0.2484125" y1="1.785875" x2="0.2484125" y2="1.201675" width="0.2032" layer="31"/>
-<wire x1="-0.252221875" y1="1.788159375" x2="-0.252221875" y2="1.203959375" width="0.2032" layer="31"/>
-<wire x1="-0.7531125" y1="1.792734375" x2="-0.7531125" y2="1.208534375" width="0.2032" layer="31"/>
-<wire x1="-1.795271875" y1="0.751840625" x2="-1.211071875" y2="0.751840625" width="0.2032" layer="31"/>
-<wire x1="-1.798828125" y1="0.250953125" x2="-1.214628125" y2="0.250953125" width="0.2032" layer="31"/>
-<wire x1="-1.8011125" y1="-0.24968125" x2="-1.2169125" y2="-0.24968125" width="0.2032" layer="31"/>
-<wire x1="-1.8056875" y1="-0.750571875" x2="-1.2214875" y2="-0.750571875" width="0.2032" layer="31"/>
-<wire x1="0.7485375" y1="-1.213865625" x2="0.7485375" y2="-1.798065625" width="0.2032" layer="31"/>
-<wire x1="0.24765" y1="-1.210309375" x2="0.24765" y2="-1.794509375" width="0.2032" layer="31"/>
-<wire x1="-0.252984375" y1="-1.208025" x2="-0.252984375" y2="-1.792225" width="0.2032" layer="31"/>
-<wire x1="-0.753875" y1="-1.20345" x2="-0.753875" y2="-1.78765" width="0.2032" layer="31"/>
-<wire x1="1.20776875" y1="0.75565" x2="1.79196875" y2="0.75565" width="0.2032" layer="31"/>
-<wire x1="1.2042125" y1="0.2547625" x2="1.7884125" y2="0.2547625" width="0.2032" layer="31"/>
-<wire x1="1.201928125" y1="-0.245871875" x2="1.786128125" y2="-0.245871875" width="0.2032" layer="31"/>
-<wire x1="1.197353125" y1="-0.7467625" x2="1.781553125" y2="-0.7467625" width="0.2032" layer="31"/>
-</package>
 <package name="PTH">
 <description>Two 0.8 mm PTHs spaced 0.2 in apart for through hole parts.</description>
 <wire x1="-3.81" y1="1.524" x2="3.81" y2="1.524" width="0.2032" layer="21"/>
@@ -22511,31 +22434,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </package>
 </packages>
 <symbols>
-<symbol name="TC78H670FTG">
-<wire x1="-22.86" y1="-17.78" x2="-22.86" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="12.7" x2="22.86" y2="12.7" width="0.254" layer="94"/>
-<wire x1="22.86" y1="12.7" x2="22.86" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-17.78" x2="-22.86" y2="-17.78" width="0.254" layer="94"/>
-<pin name="AGND" x="25.4" y="-12.7" length="short" rot="R180"/>
-<pin name="OSCM" x="25.4" y="-15.24" length="short" rot="R180"/>
-<pin name="MODE0/UP-DW/S_DATA" x="-25.4" y="-7.62" length="short"/>
-<pin name="OUT_B-" x="25.4" y="-2.54" length="short" rot="R180"/>
-<pin name="PGND_B" x="25.4" y="-5.08" length="short" rot="R180"/>
-<pin name="OUT_B+" x="25.4" y="0" length="short" rot="R180"/>
-<pin name="OUT_A-" x="25.4" y="7.62" length="short" rot="R180"/>
-<pin name="PGND_A" x="25.4" y="5.08" length="short" rot="R180"/>
-<pin name="OUT_A+" x="25.4" y="10.16" length="short" rot="R180"/>
-<pin name="VM" x="-25.4" y="10.16" length="short"/>
-<pin name="VREF" x="-25.4" y="7.62" length="short"/>
-<text x="0" y="13.716" size="1.778" layer="95" font="vector" align="bottom-center">&gt;Name</text>
-<text x="0" y="-18.796" size="1.778" layer="96" font="vector" align="top-center">&gt;Value</text>
-<pin name="MODE2/CLK/S_CLK" x="-25.4" y="-2.54" length="short"/>
-<pin name="MODE3/CW-CCW" x="-25.4" y="0" length="short"/>
-<pin name="STBY" x="-25.4" y="5.08" length="short"/>
-<pin name="MODE1/SET_EN/LATCH" x="-25.4" y="-5.08" length="short"/>
-<pin name="EN/ERR" x="-25.4" y="-12.7" length="short"/>
-<pin name="GND_PAD" x="-25.4" y="-15.24" length="short"/>
-</symbol>
 <symbol name="PPTC">
 <description>A polymeric positive temperature coefficient device (PPTC, commonly known as a resettable fuse, polyfuse or polyswitch) is a passive electronic component used to protect against overcurrent faults in electronic circuits. - Wikipedia</description>
 <wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.1524" layer="94"/>
@@ -26262,39 +26160,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TC78H670FTG">
-<gates>
-<gate name="G$1" symbol="TC78H670FTG" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="P-VQFN16-0303-0.50-001">
-<connects>
-<connect gate="G$1" pin="AGND" pad="2"/>
-<connect gate="G$1" pin="EN/ERR" pad="13"/>
-<connect gate="G$1" pin="GND_PAD" pad="17"/>
-<connect gate="G$1" pin="MODE0/UP-DW/S_DATA" pad="14"/>
-<connect gate="G$1" pin="MODE1/SET_EN/LATCH" pad="15"/>
-<connect gate="G$1" pin="MODE2/CLK/S_CLK" pad="16"/>
-<connect gate="G$1" pin="MODE3/CW-CCW" pad="1"/>
-<connect gate="G$1" pin="OSCM" pad="11"/>
-<connect gate="G$1" pin="OUT_A+" pad="5"/>
-<connect gate="G$1" pin="OUT_A-" pad="6"/>
-<connect gate="G$1" pin="OUT_B+" pad="8"/>
-<connect gate="G$1" pin="OUT_B-" pad="7"/>
-<connect gate="G$1" pin="PGND_A" pad="4"/>
-<connect gate="G$1" pin="PGND_B" pad="9"/>
-<connect gate="G$1" pin="STBY" pad="12"/>
-<connect gate="G$1" pin="VM" pad="3"/>
-<connect gate="G$1" pin="VREF" pad="10"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-15170" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PPTC" prefix="F">
 <description>&lt;h3&gt;Resettable Fuse PPTC&lt;/h3&gt;
 &lt;p&gt;Resettable Fuse. Really a sort of resistor with a &lt;b&gt;p&lt;/b&gt;olymeric &lt;b&gt;p&lt;/b&gt;ositive &lt;b&gt;t&lt;/b&gt;emperature &lt;b&gt;c&lt;/b&gt;oefficient whose resistance increases dramatically with an increase in temperature. When heated by the power passing through the resistance rises causing the current to be limited, protecting the circuit. This is achieved by the transition of the polymer from a crystalline to an amorphous state where the conductive carbon separates breaking the conductive pathways found in the cool crystalline structure. When a PPTC cools back down it resumes conducting letting the circuit turn back on.&lt;/p&gt;
@@ -29099,6 +28964,184 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Special-Function">
+<description>&lt;h3&gt;SparkFun Special Function ICs&lt;/h3&gt;
+This library contains ICs that do not really fit into the other, more generic categories.  Basically, anything that serves some function but has a bunch of brains or special bias circuitry that prevents it from being used as a general part qualifies for this category.
+&lt;p&gt;Contents:
+&lt;ul&gt;&lt;li&gt;555 timers&lt;/li&gt;
+&lt;li&gt;LED drivers&lt;/li&gt;
+&lt;li&gt;H-Bridge drivers&lt;/li&gt;
+&lt;li&gt;Motor drivers&lt;/li&gt;
+&lt;li&gt;Waveform generators&lt;/li&gt;
+&lt;li&gt;Crypto&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="P-VQFN16-0303-0.50-001">
+<description>&lt;h3&gt;QFN-16 - 3.0mm x 3.0mm package for the MLX90393&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 16&lt;/li&gt;
+&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
+&lt;li&gt;Area: 3.0mm x 3.0mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=file:///C:/Users/andrew.england/Downloads/MLX90393-Datasheet-Melexis%20(1).pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<circle x="0.9154" y="0.9126" radius="0.05" width="0.127" layer="51"/>
+<circle x="1.4234" y="1.9921" radius="0.1905" width="0" layer="21"/>
+<wire x1="1.0649" y1="1.6891" x2="1.7554" y2="1.6891" width="0.127" layer="21"/>
+<wire x1="1.7554" y1="1.6891" x2="1.7554" y2="1.0621" width="0.127" layer="21"/>
+<wire x1="-1.7526" y1="1.6891" x2="-1.7526" y2="1.0621" width="0.127" layer="21"/>
+<wire x1="-1.0621" y1="1.6891" x2="-1.7526" y2="1.6891" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-1.7526" y1="-1.6919" x2="-1.7526" y2="-1.0649" width="0.127" layer="21"/>
+<wire x1="-1.0621" y1="-1.6919" x2="-1.7526" y2="-1.6919" width="0.127" layer="21"/>
+<wire x1="1.7554" y1="-1.6919" x2="1.7554" y2="-1.0649" width="0.127" layer="21"/>
+<wire x1="1.0649" y1="-1.6919" x2="1.7554" y2="-1.6919" width="0.127" layer="21"/>
+<smd name="1" x="0.75" y="1.498" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R90" cream="no"/>
+<smd name="2" x="0.25" y="1.498" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R90" cream="no"/>
+<smd name="3" x="-0.25" y="1.498" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R90" cream="no"/>
+<smd name="4" x="-0.75" y="1.498" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R90" cream="no"/>
+<smd name="5" x="-1.508" y="0.75" dx="0.85" dy="0.255" layer="1" roundness="75" cream="no"/>
+<smd name="6" x="-1.5" y="0.25" dx="0.85" dy="0.255" layer="1" roundness="75" cream="no"/>
+<smd name="7" x="-1.508" y="-0.25" dx="0.85" dy="0.255" layer="1" roundness="75" cream="no"/>
+<smd name="8" x="-1.508" y="-0.75" dx="0.85" dy="0.255" layer="1" roundness="75" cream="no"/>
+<smd name="9" x="-0.75" y="-1.506" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R270" cream="no"/>
+<smd name="10" x="-0.25" y="-1.506" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R270" cream="no"/>
+<smd name="11" x="0.25" y="-1.506" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R270" cream="no"/>
+<smd name="12" x="0.75" y="-1.506" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R270" cream="no"/>
+<smd name="13" x="1.496" y="-0.75" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R180" cream="no"/>
+<smd name="14" x="1.496" y="-0.25" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R180" cream="no"/>
+<smd name="15" x="1.496" y="0.25" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R180" cream="no"/>
+<smd name="16" x="1.496" y="0.75" dx="0.85" dy="0.255" layer="1" roundness="75" rot="R180" cream="no"/>
+<text x="-1.3256" y="2.3676" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.7566" y="-2.8084" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<smd name="17" x="0" y="0" dx="1.3" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
+<polygon width="0.05" layer="1">
+<vertex x="-0.82" y="-0.82"/>
+<vertex x="0.82" y="-0.82"/>
+<vertex x="0.82" y="0.59"/>
+<vertex x="0.59" y="0.82"/>
+<vertex x="-0.82" y="0.82"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="-0.88" y="-0.87"/>
+<vertex x="0.87" y="-0.87"/>
+<vertex x="0.87" y="0.61"/>
+<vertex x="0.61" y="0.87"/>
+<vertex x="-0.88" y="0.87"/>
+</polygon>
+<circle x="0.508" y="0.508" radius="0.2032" width="0" layer="31"/>
+<circle x="0" y="0" radius="0.2032" width="0" layer="31"/>
+<circle x="0.508" y="-0.508" radius="0.2032" width="0" layer="31"/>
+<circle x="-0.508" y="-0.508" radius="0.2032" width="0" layer="31"/>
+<circle x="-0.508" y="0.508" radius="0.2032" width="0" layer="31"/>
+<wire x1="0.7493" y1="1.78231875" x2="0.7493" y2="1.19811875" width="0.2032" layer="31"/>
+<wire x1="0.2484125" y1="1.785875" x2="0.2484125" y2="1.201675" width="0.2032" layer="31"/>
+<wire x1="-0.252221875" y1="1.788159375" x2="-0.252221875" y2="1.203959375" width="0.2032" layer="31"/>
+<wire x1="-0.7531125" y1="1.792734375" x2="-0.7531125" y2="1.208534375" width="0.2032" layer="31"/>
+<wire x1="-1.795271875" y1="0.751840625" x2="-1.211071875" y2="0.751840625" width="0.2032" layer="31"/>
+<wire x1="-1.798828125" y1="0.250953125" x2="-1.214628125" y2="0.250953125" width="0.2032" layer="31"/>
+<wire x1="-1.8011125" y1="-0.24968125" x2="-1.2169125" y2="-0.24968125" width="0.2032" layer="31"/>
+<wire x1="-1.8056875" y1="-0.750571875" x2="-1.2214875" y2="-0.750571875" width="0.2032" layer="31"/>
+<wire x1="0.7485375" y1="-1.213865625" x2="0.7485375" y2="-1.798065625" width="0.2032" layer="31"/>
+<wire x1="0.24765" y1="-1.210309375" x2="0.24765" y2="-1.794509375" width="0.2032" layer="31"/>
+<wire x1="-0.252984375" y1="-1.208025" x2="-0.252984375" y2="-1.792225" width="0.2032" layer="31"/>
+<wire x1="-0.753875" y1="-1.20345" x2="-0.753875" y2="-1.78765" width="0.2032" layer="31"/>
+<wire x1="1.20776875" y1="0.75565" x2="1.79196875" y2="0.75565" width="0.2032" layer="31"/>
+<wire x1="1.2042125" y1="0.2547625" x2="1.7884125" y2="0.2547625" width="0.2032" layer="31"/>
+<wire x1="1.201928125" y1="-0.245871875" x2="1.786128125" y2="-0.245871875" width="0.2032" layer="31"/>
+<wire x1="1.197353125" y1="-0.7467625" x2="1.781553125" y2="-0.7467625" width="0.2032" layer="31"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TC78H670FTG">
+<wire x1="-22.86" y1="-17.78" x2="-22.86" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="12.7" x2="22.86" y2="12.7" width="0.254" layer="94"/>
+<wire x1="22.86" y1="12.7" x2="22.86" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-17.78" x2="-22.86" y2="-17.78" width="0.254" layer="94"/>
+<pin name="AGND" x="25.4" y="-12.7" length="short" rot="R180"/>
+<pin name="OSCM" x="25.4" y="-15.24" length="short" rot="R180"/>
+<pin name="MODE0/UP-DW/S_DATA" x="-25.4" y="-7.62" length="short"/>
+<pin name="OUT_B-" x="25.4" y="-2.54" length="short" rot="R180"/>
+<pin name="PGND_B" x="25.4" y="-5.08" length="short" rot="R180"/>
+<pin name="OUT_B+" x="25.4" y="0" length="short" rot="R180"/>
+<pin name="OUT_A-" x="25.4" y="7.62" length="short" rot="R180"/>
+<pin name="PGND_A" x="25.4" y="5.08" length="short" rot="R180"/>
+<pin name="OUT_A+" x="25.4" y="10.16" length="short" rot="R180"/>
+<pin name="VM" x="-25.4" y="10.16" length="short"/>
+<pin name="VREF" x="-25.4" y="7.62" length="short"/>
+<text x="0" y="13.716" size="1.778" layer="95" font="vector" align="bottom-center">&gt;Name</text>
+<text x="0" y="-18.796" size="1.778" layer="96" font="vector" align="top-center">&gt;Value</text>
+<pin name="MODE2/CLK/S_CLK" x="-25.4" y="-2.54" length="short"/>
+<pin name="MODE3/CW-CCW" x="-25.4" y="0" length="short"/>
+<pin name="STBY" x="-25.4" y="5.08" length="short"/>
+<pin name="MODE1/SET_EN/LATCH" x="-25.4" y="-5.08" length="short"/>
+<pin name="EN/ERR" x="-25.4" y="-12.7" length="short"/>
+<pin name="GND_PAD" x="-25.4" y="-15.24" length="short"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TC78H670FTG">
+<description>&lt;h3&gt;Toshiba TC78H670FTG Stepper Motor Driver&lt;/h3&gt;
+&lt;p&gt;Clock-in and Serial controlled Bipolar Stepping Motor Driver 
+&lt;li&gt;&lt;a href=”https://cdn.sparkfun.com/assets/9/9/6/d/1/TC78H670FTG_datasheet.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=”https://www.sparkfun.com/products/16836”&gt;SparkFun ProDriver - Stepper Motor Driver (TC78H670FTG)&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.sparkfun.com/products/16836"&gt;
+&lt;img src="https://cdn.sparkfun.com//assets/parts/1/5/7/5/7/16836-SparkFun_ProDriver_-_Stepper_Motor_Driver__TC78H670FTG_-01a.jpg" alt="SparkFun ProDriver" width="300" height="300"&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TC78H670FTG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="P-VQFN16-0303-0.50-001">
+<connects>
+<connect gate="G$1" pin="AGND" pad="2"/>
+<connect gate="G$1" pin="EN/ERR" pad="13"/>
+<connect gate="G$1" pin="GND_PAD" pad="17"/>
+<connect gate="G$1" pin="MODE0/UP-DW/S_DATA" pad="14"/>
+<connect gate="G$1" pin="MODE1/SET_EN/LATCH" pad="15"/>
+<connect gate="G$1" pin="MODE2/CLK/S_CLK" pad="16"/>
+<connect gate="G$1" pin="MODE3/CW-CCW" pad="1"/>
+<connect gate="G$1" pin="OSCM" pad="11"/>
+<connect gate="G$1" pin="OUT_A+" pad="5"/>
+<connect gate="G$1" pin="OUT_A-" pad="6"/>
+<connect gate="G$1" pin="OUT_B+" pad="8"/>
+<connect gate="G$1" pin="OUT_B-" pad="7"/>
+<connect gate="G$1" pin="PGND_A" pad="4"/>
+<connect gate="G$1" pin="PGND_B" pad="9"/>
+<connect gate="G$1" pin="STBY" pad="12"/>
+<connect gate="G$1" pin="VM" pad="3"/>
+<connect gate="G$1" pin="VREF" pad="10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-15170" constant="no"/>
+<attribute name="VALUE" value="TC78H670FTG" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -29128,7 +29171,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_04" device="LATCH" value="LATCH"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK" value="PTH"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK" value="PTH"/>
-<part name="U1" library="TC78H670FTG" deviceset="TC78H670FTG" device=""/>
+<part name="U1" library="SparkFun-IC-Special-Function" deviceset="TC78H670FTG" device="" value="TC78H670FTG"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
